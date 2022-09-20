@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+}
+
+.container{
+  margin: 5rem 7rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.section-img img{
+width: 100%;
+}
+
+h1,h5,p{
+  color: #333;
+}
+
+h1{
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+p{
+  margin-bottom: 2rem;
+}
+
+.memory, .storage, .delivery-option{
+  margin-bottom: 2rem;
+  /* font-weight: 900; */
+}
+
+.memory h5, .storage h5, .delivery-option h5{
+  margin-bottom: 0.5rem;
+}
+
+ button{
+padding: 0.3rem 0.5rem;
+background-color: #fff;
+border: 1px solid #333;
+border-radius: 3px;
+color: #333;
+}
+ button:hover{
+  padding: 0.4rem 0.7rem;
+background-color: #333;
+border: 1px solid #fff;
+border-radius: 3px;
+color: #fff;
+outline:auto;
+}
+
+.best-price, .memory-cost, .storage-cost, .delivery-charge, .total-price{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20rem;
+}
+
+hr{
+  background-color: rgb(221, 214, 214);
+  height: 1px;
+  width: 250px;
+margin: 0.4rem 0;
+}
+
+.bold{
+  background-color: #333;
+}
+
+.promo-code{
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.promo-code p{
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.promo-code input{
+  border: 1px solid rgb(216, 211, 211);
+  padding: 0.2rem 0;
+}
+
+.promo-code button{
+  background-color: rgb(214, 18, 116);
+  border: 0;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.last-section hr{
+  width:80%;
+  margin-left: 8rem;
+}
+
+.total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
